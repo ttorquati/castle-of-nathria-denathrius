@@ -1,0 +1,17 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background: url(../assets/img/background.jpg) no-repeat fixed center #16121c;
+}
+
+h1 {
+  text-align: center;
+  color: #e1e1e1;
+}
